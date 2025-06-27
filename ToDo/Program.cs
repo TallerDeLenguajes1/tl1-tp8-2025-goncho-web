@@ -69,8 +69,8 @@ void moverTareas(List<Tarea> pendiente, List<Tarea> realizada){
     for(int i = pendiente.Count() - 1; i >= 0; i--){ //recorro la lista de tareas pendientes 
        if(pendiente[i].tareaId == id){
         var item = pendiente[i];
-        realizada.Add(item); 
-        pendiente.Remove(item); 
+        realizada.Add(item); //agrega a realizadas
+        pendiente.Remove(item); //elimina de pendientes
         Console.WriteLine("Su tarea ha sido marcada como realizada");
        }
     }
