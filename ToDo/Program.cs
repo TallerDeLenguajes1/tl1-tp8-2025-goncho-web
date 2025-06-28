@@ -76,8 +76,6 @@ void moverTareas(List<Tarea> pendiente, List<Tarea> realizada){
     }
 }
 
-
-
 void buscarTarea(List<Tarea> pendiente){
     Console.WriteLine("Ingrese la descripcion de la tarea que busca:");
     string descripcion = Console.ReadLine();
